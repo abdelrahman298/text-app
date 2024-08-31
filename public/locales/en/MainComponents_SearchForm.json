@@ -1,0 +1,35 @@
+{
+  "buy": "Buy",
+  "rent": "Rent",
+  "keyword": { "label": "Your Needs", "placeholder": "Your Needs" },
+  "property_type": { "label": "Property Type", "placeholder": "Property Type" },
+  "region": { "label": "Location", "placeholder": "Location" },
+  "price": {
+    "label": "Price",
+    "placeholder": "Price",
+    "min_price": { "placeholder": "Min Price" },
+    "max_price": { "placeholder": "Max Price" }
+  },
+  "currency": { "label": "Currency", "placeholder": "Currency" },
+
+  "finishing": {
+    "label": "Finishing",
+    "placeholder": "Finishing",
+    "err_msg": "Finishing is required."
+  },
+  "aminities": { "label": "aminities", "placeholder": "aminities" },
+  "validations": {
+    "min_price": {
+      "pattern": "Please enter a valid number",
+      "min": "Please enter a number larger than zero",
+      "validate": "Min value cannot be larger than the max value"
+    },
+    "max_price": {
+      "pattern": "Please enter a valid number",
+      "min": "Please enter a number larger than zero",
+      "validate": "Min value cannot be larger than the max value"
+    }
+  },
+  "toast_error": "Pleas add valid data!",
+  "Submit_Button": "Search"
+}

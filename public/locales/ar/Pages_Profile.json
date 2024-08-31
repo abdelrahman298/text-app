@@ -1,0 +1,70 @@
+{
+  "tab": {
+    "title": " | الصفحة الشخصية ",
+    "description": " | صفحتي الشخصية"
+  },
+  "heading": "صفحتي الشخصية",
+  "toast_error": "الرجاء تسجيل الدخول أولا!",
+  "form": {
+    "headings": {
+      "img": "تغيير الصورة الشخصية",
+      "pass": "تعديل كلمة المرور",
+      "info": "تعديل البيانات الشخصية"
+    },
+    "UploadFileComponent_btnText": "تحميل صورة",
+    "first_name": {
+      "label": "الاسم الأول",
+      "placeholder": "الاسم الأول"
+    },
+    "last_name": {
+      "label": "الاسم الثاني",
+      "placeholder": "الاسم الثاني"
+    },
+    "phone": {
+      "label": "الهاتف",
+      "placeholder": "الهاتف"
+    },
+    "email": {
+      "label": "البريد الإلكتروني",
+      "placeholder": "البريد الإلكتروني"
+    },
+    "current_password": {
+      "label": "كلمة المرور الحالية",
+      "placeholder": "كلمة المرور الحالية"
+    },
+    "new_password": {
+      "label": "كلمة المرور الجديدة",
+      "placeholder": "كلمة المرور الجديدة"
+    },
+    "confirm_new_password": {
+      "label": "تأكيد كلمة المرور الجديدة",
+      "placeholder": "تأكيد كلمة المرور الجديدة"
+    },
+    "SubmitBtnComponent": {
+      "value": "حفظ التعديلات"
+    }
+  },
+  "validations": {
+    "first_name": {},
+    "last_name": {},
+    "phone": {
+      "pattern": "رقم الهاتف غير صحيح.",
+      "maxLength": "رقم الهاتف غير صحيح.",
+      "minLength": "رقم الهاتف غير صحيح."
+    },
+    "email": {
+      "pattern": " البريد الإلكتروني غير صحيح."
+    },
+    "current_password": {
+      "minLength": "الحد الأدنى لكلمة المرور هو  ٨ أحرف."
+    },
+    "new_password": {
+      "minLength": "الحد الأدنى لكلمة المرور الجديدة هو ٨ أحرف.",
+      "validate_old_vs_new": "لا يمكن أن تكون كلمات المرور القديمة والجديدة متطابقة."
+    },
+    "confirm_new_password": {
+      "minLength": "الحد الأدنى لتأكيد كلمة المرور الجديدة هو  ٨ أحرف.",
+      "validate": "كلمات المرور الجديدة غير متطابقة."
+    }
+  }
+}

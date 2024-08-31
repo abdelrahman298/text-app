@@ -1,0 +1,86 @@
+{
+  "Navbar": {
+    "menu_items": {
+      "Home": "Home",
+      "Find_Properties": {
+        "title": "Find Properties",
+        "For_Sale": {
+          "title": "For Sale",
+          "Residential": "Residential For Sale",
+          "Commercial": "Commercial For Sale"
+        },
+        "For_Rent": {
+          "title": "For Rent",
+          "Residential": "Residential For Rent",
+          "Commercial": "Commercial For Rent"
+        }
+      },
+      "our_agents": "Our Agents",
+      "Projects": "Projects",
+      "news": "News",
+      "Contact_Us": "Contact Us",
+      "login": "Login/Register",
+      "cta_txt": "Add Listing"
+    },
+
+    "user_menu_items": {
+      "profile": "Profile",
+      "messages": "Messages",
+      "reviews": "Reviews",
+      "submit_property": "Submit Property",
+      "my_properties": "My Properties",
+      "my_offers": "Submission Offers",
+      "favorites": "Favorites",
+      "log_out": "Log Out"
+    }
+  },
+
+  "Footer": {
+    "first_column": {
+      "Location": "Location",
+      "Email": "Email",
+      "Website": "Website"
+    },
+    "second_column": {
+      "title": "QUICK LINKS",
+      "menu_items": {
+        "Home": { "title": "Home", "link": "" },
+        "News": { "title": "News", "link": "/news" },
+        "FAQs": { "title": "FAQs", "link": "/faqs" },
+        "Contact": { "title": "Contact", "link": "/contact-us" },
+        "Login": { "title": "Login", "link": "/login" },
+        "About": { "title": "About", "link": "/about-us" },
+        "Terms_Conditions": {
+          "title": "Terms & Conditions",
+          "link": "/terms-conditions"
+        }
+      }
+    },
+    "third_column": {
+      "title": "Contact Us"
+    },
+
+    "fourth_column": {
+      "title": "Latest Properties",
+      "email": {
+        "placeholder": "Enter your email",
+        "required_msg": "Email is required.",
+        "pattern_msg": "Invalid Email Address."
+      }
+    },
+    "top_banner": { "Subscribe": "Subscribe" }
+  },
+
+  "LoginPopUp": {
+    "heading": "Lana",
+    "sub_heading": "You must login firstly!",
+    "Login": "Login",
+    "Register": "Register"
+  },
+  "LogOutPopUp": {
+    "LogOutPopUpTitle": "Are you sure you want to logout ?",
+    "SubmitBtnText": "Confirm",
+    "CancelBtnText": "Cancel",
+    "toast_error": "Please log in first!"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "heading": "ابحث عن منزلك",
+  "keyword": {
+    "label": "احتياجاتك",
+    "placeholder": "احتياجاتك"
+  },
+  "regions": {
+    "label": "الموقع",
+    "placeholder": "الموقع"
+  },
+  "property_type": {
+    "label": "نوع العقار",
+    "placeholder": "نوع العقار"
+  },
+  "currency": {
+    "label": "العملة",
+    "placeholder": "العملة"
+  },
+  "finishing": {
+    "label": "تشطيب العقار",
+    "placeholder": "تشطيب العقار"
+  },
+  "status": {
+    "label": "الحالة",
+    "placeholder": "الحالة",
+    "selections": {
+      "for_sale": "للبيع",
+      "for_rent": "للإيجار",
+      "for_both": "كلاهما"
+    }
+  },
+  "purpose": {
+    "label": "الغرض",
+    "placeholder": "الغرض"
+  },
+  "aminities": {
+    "placeholder": "المميزات"
+  },
+  "min_beds": {
+    "placeholder": "غرف النوم"
+  },
+  "min_bathes": {
+    "placeholder": "الحمامات"
+  },
+  "price_range_slider": {
+    "name": "نطاق السعر",
+    "label": "نطاق السعر"
+  },
+  "area_range_slider": {
+    "name": "نطاق المساحة",
+    "label": "نطاق المساحة"
+  },
+  "value_formatted": "{{value, number}}",
+  "validations": {
+    "min_beds": {
+      "pattern": "من فضلك أدخل رقما صحيح",
+      "min": "الرجاء إدخال رقم أكبر من الصفر",
+      "validate": "لا يمكن أن تكون القيمة الدنيا أكبر من القيمة القصوى"
+    },
+    "min_bathes": {
+      "pattern": "من فضلك أدخل رقما صحيح",
+      "min": "الرجاء إدخال رقم أكبر من الصفر",
+      "validate": "لا يمكن أن تكون القيمة الدنيا أكبر من القيمة القصوى"
+    }
+  },
+  "toast_error": "من فضلك ادخل بيانات صحيحة!",
+
+  "Submit_Button": "بحث"
+}

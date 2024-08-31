@@ -1,0 +1,67 @@
+{
+  "tab": {
+    "title": "{{name}} | Rent - Sell Properties in Egypt | LANACRM"
+  },
+
+  "FeaturedProperties": {
+    "main_CTA": "VIEW ALL LISTINGS"
+  },
+  "LatestProperties": {
+    "main_CTA": "VIEW ALL LISTINGS"
+  },
+
+  "FixedBgImg": {
+    "main_CTA_1": "Rent Properties ",
+    "main_CTA_2": "Buy Properties "
+  },
+  "Testimonials": {
+    "top_banner": { "main_CTA": "Find More Properties" }
+  },
+  "LatestNews": {
+    "main_CTA": "VIEW ALL NEWS"
+  },
+
+  "CategoryCard": {
+    "count_formatted": "{{count, number}} Properties"
+  },
+  "CityCard": {
+    "total_count_formatted": "{{count, number}} Properties",
+    "rent_count_formatted": "{{count, number}} Properties for rent",
+    "sale_count_formatted": "{{count, number}} Properties for sale"
+  },
+  "PropertyCard": {
+    "for_what_for_both": "For Sale or Rent",
+    "for_what_for_sale": "For Sale",
+    "for_what_for_rent": "For Rent",
+    "price_formatted": "{{price, number}}",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} or {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "area_formatted": "{{area, number, area}}",
+    "Bedrooms": "{{count, number}} Bedrooms",
+    "Bathrooms": "{{count, number}} Bathrooms",
+    "Start_From": "Price",
+    "Month": "Month",
+    "share_options": {
+      "Facebook": "Facebook",
+      "Twitter": "Twitter",
+      "Google": "Google"
+    }
+  },
+  "AgentCard": {
+    "count_formatted": "{{count, number}} Properties"
+  },
+  "NewsCard": { "count_formatted": "{{count, number}}" },
+  "LoginPopUp": {
+    "heading": "Lana",
+    "sub_heading": "You must login firstly!",
+    "Login": "Login",
+    "Register": "Register"
+  },
+  "LogOutPopUp": {
+    "LogOutPopUpTitle": "Are you sure you want to logout ?",
+    "SubmitBtnText": "Confirm",
+    "CancelBtnText": "Cancel",
+    "toast_error": "Please log in first!"
+  }
+}

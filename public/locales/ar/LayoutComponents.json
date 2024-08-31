@@ -1,0 +1,92 @@
+{
+  "Navbar": {
+    "menu_items": {
+      "Home": "الرئيسية",
+      "Find_Properties": {
+        "title": "ابحث عن عقارات",
+        "For_Sale": {
+          "title": "للبيع",
+          "Residential": "سكني للبيع",
+          "Commercial": "تجاري للبيع"
+        },
+        "For_Rent": {
+          "title": "للإيجار",
+          "Residential": "سكني للإيجار",
+          "Commercial": "تجاري للإيجار"
+        }
+      },
+      "our_agents": "فريق العمل",
+      "Projects": "المشاريع",
+      "news": "الأخبار",
+      "Contact_Us": "اتصل بنا",
+      "login": "تسجيل الدخول",
+      "cta_txt": "اضافة عقار"
+    },
+    "user_menu_items": {
+      "profile": "الحساب الشخصي",
+      "messages": "الرسائل",
+      "reviews": "التعليقات",
+      "submit_property": "اضافة عقار",
+      "my_properties": "عقاراتي",
+      "my_offers": "عروضي",
+      "favorites": "المفضلة",
+      "log_out": "تسجيل خروج"
+    }
+  },
+
+  "Footer": {
+    "first_column": {
+      "Location": "الموقع",
+      "Email": "البريد إلكتروني",
+      "Website": "الموقع إلكتروني"
+    },
+    "second_column": {
+      "title": "روابط سريعة",
+      "menu_items": {
+        "Home": {
+          "title": "الرئيسية",
+          "link": ""
+        },
+        "News": {
+          "title": "الأخبار",
+          "link": "/news"
+        },
+        "FAQs": {
+          "title": "الأسئلة الشائعة",
+          "link": "/faqs"
+        },
+        "Contact": { "title": "اتصل بنا", "link": "/contact-us" },
+        "Login": { "title": "تسجيل الدخول", "link": "/login" },
+        "About": { "title": "معلومات عنا", "link": "/about-us" },
+        "Terms_Conditions": {
+          "title": "الأحكام والشروط",
+          "link": "/terms-conditions"
+        }
+      }
+    },
+    "third_column": {
+      "title": "اتصل بنا"
+    },
+    "fourth_column": {
+      "title": "أحدث العقارات",
+      "email": {
+        "placeholder": "أدخل بريدك الإلكتروني",
+        "required_msg": "البريد الالكتروني مطلوب.",
+        "pattern_msg": "عنوان البريد الإلكتروني غير صحيح."
+      }
+    },
+    "top_banner": { "Subscribe": "اشترك" }
+  },
+  "LoginPopUp": {
+    "heading": "لانا",
+    "sub_heading": "يجب عليك تسجيل الدخول أولا!",
+    "Login": "تسجيل الدخول",
+    "Register": "إنشاء حساب"
+  },
+  "LogOutPopUp": {
+    "LogOutPopUpTitle": "هل أنت متأكد أنك تريد تسجيل الخروج ؟",
+    "SubmitBtnText": "تأكيد",
+    "CancelBtnText": "رجوع",
+    "toast_error": "الرجاء تسجيل الدخول أولا!"
+  }
+}

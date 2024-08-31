@@ -1,0 +1,125 @@
+{
+  "tab": {
+    "title": "LANACRM | "
+  },
+  "ShareComponent": {
+    "txt": "نشر",
+    "txt_property": "نشر هذا العقار",
+    "txt_article": "نشر هذه المقال",
+    "txt_project": "نشر هذا المشروع",
+    "Facebook": "فيسبوك",
+    "Twitter": "تويتر",
+    "Google": "جوجل"
+  },
+
+  "headings": {
+    "description": "وصف المشروع",
+    "QuickSummary": "نبذة مختصرة",
+    "aminities": "مميزات المشروع",
+    "AUTOCAD": "أوتوكاد المشروع",
+    "AUTOCAD_DESCRIPTION": "هذه كلها أبعاد الوحدات",
+    "LOCATION": "موقع المشروع",
+    "VIDEO": "الفيديو",
+    "CONTACT_AGENT": "تواصل مع الموظف"
+  },
+  "ErrorMessage": "لقد حدث خطأ ما، يرجى المحاولة مرة أخرى في وقت لاحق!",
+  "PropertyCard": {
+    "for_what_for_both": "للبيع او للإيجار",
+    "for_what_for_sale": "للبيع",
+    "for_what_for_rent": "للإيجار",
+    "price_formatted": "{{price, number}}",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} أو {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "area_formatted": "{{area, number, area}}",
+    "Bedrooms_one": "غرفة نوم",
+    "Bedrooms_two": "غرفتين نوم",
+    "Bedrooms_few": "{{count}} غرف نوم",
+    "Bedrooms_many": "{{count}} غرفة نوم",
+    "Bedrooms_other": "{{count}} غرفة نوم",
+    "Bathrooms_one": "حمام",
+    "Bathrooms_two": "حمامين",
+    "Bathrooms_few": "{{count}} حمامات",
+    "Bathrooms_many": "{{count}} حمام",
+    "Bathrooms_other": "{{count}} حمام",
+    "Bathrooms": "{{count, number}} الحمامات",
+    "Start_From": "السعر",
+    "Month": "شهر",
+    "share_options": {
+      "Facebook": "فيسبوك",
+      "Twitter": "تويتر",
+      "Google": "جوجل +"
+    }
+  },
+  "RecentlyViewedProperties": {
+    "title": "شوهدت مؤخرا"
+  },
+  "CitiesAside": {
+    "title": "الأماكن المشهورة",
+    "properties_word": "عقارات"
+  },
+  "PropertiesCategories": {
+    "title": "فئات العقارات",
+    "count_formatted": "{{count, number}} عقارات"
+  },
+  "FeaturedPropertiesAside": {
+    "title": "عقارات مميزة"
+  },
+  "AllProjectsAside": {
+    "title": "كل المشاريع"
+  },
+  "QuickSummary": {
+    "Start_Price": "اسعار تبدأ من:",
+    "status": "الحالة:",
+    "start_rooms": "الغرف من:",
+    "start_bedrooms": "غرف النوم من:",
+    "delivery_time": "تاريخ التسليم:",
+    "total_units": "إجمالي العقارات:",
+    "price_formatted": "{{price, number}} ج.م"
+  },
+  "aside": {
+    "Phone": "الهاتف:",
+    "Mobile": "المويابل:",
+    "Email": "البريد إلكتروني:"
+  },
+  "AsideForm": {
+    "contact_agent": "تواصل مع الموظف",
+    "name": {
+      "placeholder": "الاسم"
+    },
+    "phone": {
+      "placeholder": "الهاتف"
+    },
+    "email": {
+      "placeholder": "البريد إلكتروني"
+    },
+    "message": {
+      "placeholder": "الرسالة..."
+    },
+    "SubmitBtnComponent": {
+      "value_message": "إرسال",
+      "value": "إرسال"
+    },
+    "toast_error": "برجاء تسجيل الدخول أولا!"
+  },
+  "validations": {
+    "name": {
+      "required": "الاسم مطلوب"
+    },
+    "email": {
+      "required": "البريد الالكتروني مطلوب.",
+      "pattern": " البريد الإلكتروني غير صحيح."
+    },
+    "message": {
+      "required": "الرسالة مطلوبة.",
+      "minLength": "الرجاء إدخال ٣ أحرف على الأقل."
+    },
+
+    "phone": {
+      "required": "الهاتف مطلوب.",
+      "pattern": "رقم الهاتف غير صحيح.",
+      "maxLength": "رقم الهاتف غير صحيح.",
+      "minLength": "رقم الهاتف غير صحيح."
+    }
+  }
+}

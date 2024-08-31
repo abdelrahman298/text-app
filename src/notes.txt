@@ -1,0 +1,95 @@
+
+
+https://swiperjs.com/element#core-version--modules
+
+(e: React.KeyboardEvent<HTMLInputElement>) 
+(e: React.ChangeEvent<HTMLInputElement>)
+const Target = e.target as HTMLInputElement;
+React.Dispatch<
+    React.SetStateAction<SelectableForms>
+  >
+  
+
+# add rent or sale/buy & residential or commercial keys for search in front and back  
+TextEditor
+#separate the token from the user data
+#the link of agent details from news details needs th author/agent id
+-the CountersNumbers needs handling to be able to remove the event listener in the clean up
+-arabic translations needs checking for all pages
+- replace temp secondary with secondary and temp primary with primary
+-Only one captcha is permitted per parent container. (login page)
+-make range slider take values from the url
+*until now we are not using these classes dark-bg-submit,
+*if the card is used inside swiper slider we set its width to be full, whereas its width is set from the slider itself, also to make the cards always the edges, whereas until now i don't how too center the slides
+  .light-bg-submit
+  *error boundary
+  -if you wrap the main, it will not catch the errors in any page even with importing the component normally not from lazy, but it can catch the error in the app itself
+https://translate.i18next.com/
+To ensure you are in compliance with the online privacy laws coming into force around the world, please include the following text and links on the page that includes an invisible hCaptcha:
+
+This site is protected by hCaptcha and its
+<a href="https://www.hcaptcha.com/privacy">Privacy Policy</a> and
+<a href="https://www.hcaptcha.com/terms">Terms of Service</a> apply.
+
+
+أكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات . ديواس
+
+أيوتي أريري دولار إن ريبريهينديرأيت فوليوبتاتي فيلايت أيسسي كايلليوم دولار أيو فيجايت
+
+٢
+٢٠٢٣
+٣ أشهر
+ ٨
+ ٩
+ ٦
+"إيجار - بيع العقارات في مصر"
+حمامات
+صحيح
+حذف
+إلغاء
+تأكيد
+ارسل رسالتك
+إرسال
+عقارات
+
+الآن 
+حتي
+    "description": "لانا | إيجار - بيع العقارات في مصر"
+
+      "minLength": "الحد الأدنى لتأكيد كلمة المرور الجديدة هو  ٨ أحرف.",
+
+      "required": "الاسم مطلوب"
+بواسطة
+"العقارات الخاصة بي"
+
+not translated
+pluralization
+
+translations -------------
+#context example is in Pages_PropertyDetails.json for the SubmitBtnComponent
+#use key as a fallback for another key example in NumberComponent for validations ( pattern and min )
+#the component translation are placed in high level in the .json files, so we can access the keys in component itself by just prefixing the key with the component name whatever the page we use the component inside it 
+
+#pluralization and format examples are in PropertyCard arabic
+*pages without translations 
+cities
+CityDetails
+
+
+*pages without design 
+cities
+CityDetails
+
+cards -------------
+max-w-[440px] which is the max width possible which is defined in the grid-auto-fit css class
+and we need to define the max width to habdle the case of there is only one or two items so witout the max width the item will take the full website widththe items / properties with key of main need to have a larger max width because they will take the full width at the tablet size
+
+rtl:rotate-90
+
+4 hrs
+
+#Pagination Component cases
+
+*handle the state in the url and in the code (to use it to disable or colorize the elements)
+*+page => convert to number in mathematic operations and checks (ex. disabled) whereas if there is no page param in the url, the Pagination Component will receive the default numeric one (1), but if there is a page param in thee url, hence it will receive a string not a numeric, whereas the url values are string, so the mathimatic operation or the checkss may fail
+*${+lastPage > 1 ? "block" : "hidden"} => hide the pagination arrows if there is only one page

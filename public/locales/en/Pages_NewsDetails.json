@@ -1,0 +1,52 @@
+{
+  "tab": {
+    "title": " | LANACRM"
+  },
+  "by": "by",
+  "ShareComponent": {
+    "txt": "Share",
+    "txt_article": "Share this Article",
+    "Facebook": "Facebook",
+    "Twitter": "Twitter",
+    "Google": "Google +"
+  },
+  "LATEST_NEWS": "LATEST NEWS",
+  "ErrorMessage": "Something wrong has happened, please try again later!",
+  "NewsCard": { "count_formatted": "{{count, number}}" },
+
+  "PropertyCard": {
+    "for_what_for_both": "For Sale or Rent",
+    "for_what_for_sale": "For Sale",
+    "for_what_for_rent": "For Rent",
+    "price_formatted": "{{price, number}}",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} or {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "area_formatted": "{{area, number, area}}",
+    "Bedrooms": "{{count, number}} Bedrooms",
+    "Bathrooms": "{{count, number}} Bathrooms",
+    "Start_From": "Price",
+    "Month": "Month",
+    "share_options": {
+      "Facebook": "Facebook",
+      "Twitter": "Twitter",
+      "Google": "Google"
+    },
+    "Actions": { "Delete": "Delete" }
+  },
+  "RecentlyViewedProperties": {
+    "title": "Recently Viewed"
+  },
+
+  "CitiesAside": {
+    "title": "Popular Destinations",
+    "properties_word": "Properties"
+  },
+  "PropertiesCategories": {
+    "title": "Properties Categories",
+    "count_formatted": "{{count, number}} Properties"
+  },
+  "FeaturedPropertiesAside": {
+    "title": "Featured Properties"
+  }
+}

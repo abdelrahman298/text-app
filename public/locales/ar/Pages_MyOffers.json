@@ -1,0 +1,27 @@
+{
+  "tab": {
+    "title": " | العروض الخاصة بي ",
+    "description": " | صفحة العروض الخاصة بي "
+  },
+  "heading": "عروضي",
+  "ErrorMessage": "لقد حدث خطأ ما، يرجى المحاولة مرة أخرى في وقت لاحق!",
+  "NoItemsMessage": "لا توجد عروض حتي الآن!",
+  "status": { "seen": "تم العرض", "not_seen": "لم يتم العرض" },
+  "table": {
+    "thead": {
+      "name": "الاسم",
+      "time": "الوقت",
+      "link": "العنوان",
+      "cost": "التكلفة",
+      "my_offer": "عرضي",
+      "status": "الحالة",
+      "offer_formatted": "{{offer, number}} {{curr}}"
+    }
+  },
+  "cost": {
+    "price_formatted": "{{price, number}}",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} أو {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}"
+  }
+}

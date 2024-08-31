@@ -1,0 +1,25 @@
+{
+  "menu": {
+    "profile": "الحساب الشخصي",
+    "messages": "الرسائل",
+    "reviews": "التعليقات",
+    "submit_property": "اضافة عقار",
+    "my_properties": "عقاراتي",
+    "my_offers": "عروضي",
+    "favorites": "المفضلة",
+    "log_out": "تسجيل خروج"
+  },
+
+  "LoginPopUp": {
+    "heading": "لانا",
+    "sub_heading": "يجب عليك تسجيل الدخول أولا!",
+    "Login": "تسجيل الدخول",
+    "Register": "إنشاء حساب"
+  },
+  "LogOutPopUp": {
+    "LogOutPopUpTitle": "هل أنت متأكد أنك تريد تسجيل الخروج ؟",
+    "SubmitBtnText": "تأكيد",
+    "CancelBtnText": "إلغاء",
+    "toast_error": "برجاء تسجيل الدخول أولا!"
+  }
+}

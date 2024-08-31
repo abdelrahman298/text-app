@@ -1,0 +1,230 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html:lang(en) body {
+  font-family: "Roboto", sans-serif;
+}
+html:lang(ar) body {
+  font-family: "Cairo", sans-serif;
+}
+
+.PopoverContent {
+  width: var(--radix-popover-trigger-width);
+  max-height: var(--radix-popover-content-available-height);
+}
+.SelectContent {
+  width: var(--rcustom_checkboxadix-select-trigger-width);
+  max-height: var(--radix-select-content-available-height);
+}
+@layer base {
+  :root {
+    --temp_primary: 210.86, 60.34%, 22.75%;
+    --temp_secondary: 210.6, 89.22%, 32.75%;
+    --temp_bg: #000;
+
+    --accnt: #ff920f;
+    --accnt_2: #ff920f;
+    --accnt_3: #000;
+    --txt: 210.6, 89.22%, 32.75%;
+    --btn: 210.86, 60.34%, 22.75%;
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%; /* it must be customized from this variable, popover = background, it is used in popover, Command*/
+    --popover-foreground: 210.6, 89.22%, 32.75%; /* it must be customized from this variable, popover-foreground = temp_secondary, it is used in popover, Command*/
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+
+    /*  --grey: 207, 44%, 95%; */
+    --grey: 0, 0%, 96.86%;
+
+    --radius: 0.5rem;
+    --form-filed-height: 44px;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-temp_secondary overflow-x-hidden w-full;
+  }
+
+  .site_container {
+    @apply md:w-11/12 lg:w-[700px] 3xl:w-[940px] 5xl:w-[1115px] 6xl:w-[1300px] mx-auto w-5/6;
+  }
+  .trns {
+    @apply transition-all duration-300 ease-in-out;
+  }
+}
+
+@layer utilities {
+  .rtl {
+    direction: rtl;
+  }
+  .ltr {
+    direction: ltr;
+  }
+  .flip {
+    transform: rotateY(180deg);
+  }
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+  .flex-col-center {
+    @apply flex flex-col justify-center items-center;
+  }
+  :root {
+    --radix-popover-trigger-width: 30%;
+  }
+
+  .PopoverContent {
+    width: var(--radix-popover-trigger-width);
+    max-height: var(--radix-popover-content-available-height);
+  }
+  .hover__underline {
+    @apply relative before:content-[""] before:absolute  before:left-0 before:w-full before:bottom-0 before:h-0.5 before:rounded-lg  before:bg-accnt before:trns before:opacity-0 hover:before:opacity-100;
+  }
+  /* .hover__underline {
+    @apply relative before:content-[""] before:absolute  before:left-0 before:bottom-0 before:h-0.5 before:rounded-lg  before:bg-accnt before:trns before:w-0 hover:before:w-full;
+  } */
+}
+
+/* //! --- forms ---- */
+
+@layer base {
+  .light-bg-inputs,
+  .dark-bg-inputs,
+  textarea {
+    @apply text-base  font-normal rounded-sm transition-shadow duration-200 border-none text-temp_secondary shadow-[0_0_0_1px] shadow-temp_secondary;
+  }
+
+  .light-bg-inputs,
+  textarea {
+    @apply bg-transparent;
+  }
+  .dark-bg-inputs {
+    @apply bg-background;
+  }
+
+  .light-bg-inputs,
+  .dark-bg-inputs,
+  .dark-bg-submit,
+  .light-bg-submit {
+    @apply h-11 min-h-[44px];
+  }
+
+  .light-bg-inputs,
+  .dark-bg-inputs,
+  textarea {
+    @apply placeholder:text-base placeholder:text-temp_secondary placeholder:opacity-50 placeholder:font-normal;
+  }
+
+  .light-bg-inputs,
+  .dark-bg-inputs,
+  textarea {
+    @apply focus:outline-none focus:border-none focus:ring-0;
+  }
+
+  .light-bg-inputs,
+  .dark-bg-inputs,
+  textarea {
+    @apply focus:shadow-[0_0_0_2px] focus:shadow-temp_secondary focus:text-temp_secondary  focus:placeholder:text-temp_secondary;
+  }
+  .light-bg-inputs,
+  textarea {
+    @apply focus:bg-transparent;
+  }
+
+  .dark-bg-inputs {
+    @apply focus:bg-background;
+  }
+  label {
+    @apply text-base text-temp_secondary  tracking-normal w-full;
+  }
+  .dark-bg-submit,
+  .light-bg-submit {
+    @apply cursor-pointer transition-all duration-300 ease-in-out text-base rounded-sm text-center font-normal tracking-normal border-none  text-temp_secondary bg-accnt hover:bg-transparent hover:text-accnt active:scale-90 disabled:opacity-60 disabled:cursor-no-drop disabled:active:scale-100 disabled:hover:text-temp_secondary disabled:hover:bg-accnt shadow-[0_0_0_1px] shadow-accnt focus:shadow-[0_0_0_2px];
+  }
+
+  input[type="file"] {
+    @apply h-auto p-1 text-sm disabled:hover:after:w-0 disabled:hover:after:right-0;
+  }
+
+  /* hide arrows from input type number */
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Firefox */
+  input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+}

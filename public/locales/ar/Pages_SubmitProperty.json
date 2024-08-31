@@ -1,0 +1,332 @@
+{
+  "tab": {
+    "title": " | إضافة عقار",
+    "description": " | صفحة إضافة عقار"
+  },
+  "heading": "أضف عقارك",
+  "sub_heading": "تفاصيل العقار",
+  "form": {
+    "SubmitBtnComponent": {
+      "value": "إرسال"
+    },
+    "property_title_en": {
+      "label": "الإسم باللغة الإنجليزية",
+      "placeholder": "Title in English"
+    },
+    "property_title_ar": {
+      "label": "الإسم باللغة العربية",
+      "placeholder": "الإسم باللغة العربية"
+    },
+    "address_en": {
+      "label": "الموقع باللغة الإنجليزية",
+      "placeholder": "Ex: Zahraa Nasr City"
+    },
+    "address_ar": {
+      "label": "الموقع باللغة العربية",
+      "placeholder": "مثال: زهرة مدينة نصر"
+    },
+    "video": {
+      "label": "الفيديو",
+      "placeholder": "مثال: https://www.youtube.com/"
+    },
+    "location": {
+      "label": "الموقع",
+      "placeholder": "الموقع"
+    },
+    "building_num": {
+      "label": "رقم المبنى",
+      "placeholder": "رقم المبنى"
+    },
+    "floor_num": {
+      "label": "رقم الطابق",
+      "placeholder": "رقم الطابق"
+    },
+    "apartment_num": {
+      "label": "رقم الشقة",
+      "placeholder": "رقم الشقة"
+    },
+    "unit_floor": {
+      "label": "عدد طوابق الوحدة",
+      "placeholder": "عدد طوابق الوحدة"
+    },
+    "for_what": {
+      "label": "للبيع / للإيجار / الإثنين معا",
+      "placeholder": "للبيع / للإيجار / الإثنين معا",
+      "err_msg": "هذا الحقل مطلوب.",
+      "selections": {
+        "for_sale": "للبيع",
+        "for_rent": "للإيجار",
+        "for_both": "الإثنين معا"
+      }
+    },
+    "rent_duration": {
+      "label": "مدة الإيجار",
+      "placeholder": "مدة الإيجار",
+      "err_msg": "مدة الإيجار مطلوبة.",
+      "selections": {
+        "daily": "كل يوم",
+        "monthly": "كل شهر ",
+        "3_months": "كل ٣ أشهر",
+        "6_months": "كل ٦ أشهر",
+        "9_months": "كل ٩ أشهر",
+        "yearly": "كل عام"
+      }
+    },
+    "rent_price": {
+      "label": "سعر الإيجار",
+      "placeholder": "سعر الإيجار"
+    },
+    "sale_price": {
+      "label": "سعر البيع",
+      "placeholder": "سعر البيع"
+    },
+    "total_area": {
+      "label": "المساحة الكلية",
+      "placeholder": "المساحة الكلية"
+    },
+    "land_area": {
+      "label": "مساحة الأرض",
+      "placeholder": "مساحة الأرض"
+    },
+    "garage_size": {
+      "label": "مساحة الجراج",
+      "placeholder": "مساحة الجراج"
+    },
+    "no_floors": {
+      "label": "عدد الطوابق",
+      "placeholder": "عدد الطوابق"
+    },
+    "room_ensuite": {
+      "label": "غرفة بحمام داخلي",
+      "placeholder": "غرفة بحمام داخلي"
+    },
+    "reception_pieces": {
+      "label": "عدد غرف الاستقبال",
+      "placeholder": "عدد غرف الاستقبال"
+    },
+    "bath_room_no": {
+      "label": "عدد غرف الحمام",
+      "placeholder": "عدد غرف الحمام"
+    },
+    "bed_rooms_no": {
+      "label": "عدد غرف النوم",
+      "placeholder": "عدد غرف النوم"
+    },
+    "kitchens_no": {
+      "label": "عدد المطابخ",
+      "placeholder": "عدد المطابخ"
+    },
+    "garage_no": {
+      "label": "عدد الجراجات",
+      "placeholder": "عدد الجراجات"
+    },
+    "living_room": {
+      "label": "عدد غرف المعيشة",
+      "placeholder": "عدد غرف المعيشة"
+    },
+    "purpose": {
+      "label": "الغرض",
+      "placeholder": "الغرض",
+      "err_msg": "الغرض مطلوب."
+    },
+    "category": {
+      "label": "الفئة",
+      "placeholder": "الفئة",
+      "err_msg": "الفئة مطلوبة."
+    },
+    "priority": {
+      "label": "الأولوية",
+      "placeholder": "الأولوية",
+      "err_msg": "الأولوية مطلوبة.",
+      "selections": { "Normal": "عقار عادي", "Featured": "عقار مميز" }
+    },
+    "country": {
+      "label": "الدولة",
+      "placeholder": "الدولة",
+      "err_msg": "الدولة مطلوبة."
+    },
+    "city": {
+      "label": "المدينة",
+      "placeholder": "المدينة",
+      "err_msg": "المدينة مطلوبة."
+    },
+    "region": {
+      "label": "المنطقة",
+      "placeholder": "المنطقة",
+      "err_msg": "المنطقة مطلوبة."
+    },
+
+    "finishing": {
+      "label": "التشطيب",
+      "placeholder": "التشطيب",
+      "err_msg": "التشطيب مطلوب."
+    },
+    "reception_floor_type": {
+      "label": "نوع طابق الاستقبال",
+      "placeholder": "نوع طابق الاستقبال",
+      "err_msg": "نوع طابق الاستقبال مطلوب."
+    },
+    "property_type": {
+      "label": "نوع العقار",
+      "placeholder": "نوع العقار",
+      "err_msg": "نوع العقار مطلوبة."
+    },
+    "Photos_section_title": "صور العقار",
+    "Photos_section_tooltip": "تحميل صور العقار",
+    "primary_image": {
+      "label": "الصورة الأساسية",
+      "btnText": "تحميل الصورة"
+    },
+    "property_description_en": {
+      "Heading": "وصف العقار باللغة الإنجليزية"
+    },
+    "property_description_ar": {
+      "Heading": "وصف العقار باللغة العربية"
+    },
+    "Quick_Summary": {
+      "Heading": "نبذة مختصرة",
+      "add_btn_txt": "إضافة حقل",
+      "Title": {
+        "label": "الإسم",
+        "placeholder": "الإسم",
+        "required_err_msg": "الإسم مطلوب."
+      },
+      "Value": {
+        "label": "القيمة",
+        "placeholder": "القيمة",
+        "required_err_msg": "القيمة مطلوبة."
+      }
+    },
+    "aminities": {
+      "Heading": "مميزات العقار"
+    },
+    "error": {
+      "fill_required": "الرجاء ملئ كل البيانات المطلوبة!",
+      "sign_in": "الرجاء تسجيل الدخول أولا!"
+    }
+  },
+  "DragDropArea": {
+    "title_while_dragging": "إسقاط الصور هنا",
+    "title": "قم بسحب وإسقاط الصور هنا",
+    "or": "أو",
+    "Browse": "تصفح",
+    "rejectedImages": {
+      "max_size_err_msg": "الحد الأقصى لحجم الصورة هو ٥ ميجابايت.",
+      "size_txt": "الحجم:",
+      "size_unit": "ميجابايت",
+      "Canceled": "فشل التحميل"
+    }
+  },
+  "TextEditor": {
+    "property_description_ar": {
+      "required_err_msg": "وصف العقار باللغة العربية مطلوب.",
+      "placeholder": "Type here "
+    },
+    "property_description_en": {
+      "required_err_msg": "وصف العقار باللغة الإنجليزية مطلوب.",
+      "placeholder": "Type here "
+    }
+  },
+  "validations": {
+    "primary_image": {
+      "required": "الصورة الأساسية مطلوبة",
+      "validate": "الحد الاقصي لحجم الصورة هو 5 ميجا."
+    },
+    "property_title_en": {
+      "required": "الإسم باللغة الإنجليزية مطلوب.",
+      "pattern": "يُسمح فقط بالأحرف الإنجليزية."
+    },
+    "property_title_ar": {
+      "required": "الإسم باللغة العربية مطلوب.",
+      "pattern": "يُسمح فقط بالأحرف العربية."
+    },
+    "address_en": {
+      "required": "الموقع باللغة الإنجليزية مطلوب.",
+      "pattern": "يُسمح فقط بالأحرف الإنجليزية."
+    },
+    "address_ar": {
+      "required": "الموقع باللغة العربية مطلوب.",
+      "pattern": "يُسمح فقط بالأحرف العربية."
+    },
+    "video": {
+      "required": "الفيديو مطلوب."
+    },
+    "location": {
+      "required": "الموقع مطلوب."
+    },
+    "building_num": {
+      "required": "رقم المبنى مطلوب.",
+      "pattern": "رقم غير صحيح."
+    },
+    "floor_num": {
+      "required": "رقم الطابق مطلوب.",
+      "pattern": "رقم غير صحيح."
+    },
+    "apartment_num": {
+      "required": "رقم الشقة مطلوب.",
+      "pattern": "رقم غير صحيح."
+    },
+    "unit_floor": {
+      "required": "عدد طوابق الوحدة مطلوب .",
+      "pattern": "رقم غير صحيح."
+    },
+    "rent_price": {
+      "required": "سعر الإيجار مطلوب.",
+      "pattern": "رقم غير صحيح."
+    },
+    "sale_price": {
+      "required": "سعر البيع مطلوب.",
+      "pattern": "رقم غير صحيح."
+    },
+    "total_area": {
+      "required": "المساحة الكلية مطلوبة.",
+      "pattern": "رقم غير صحيح."
+    },
+    "land_area": {
+      "required": " مساحة الارض مطلوبة.",
+      "pattern": "رقم غير صحيح."
+    },
+    "garage_size": {
+      "required": "مساحة الجراج مطلوب.",
+      "pattern": "رقم غير صحيح."
+    },
+    "no_floors": {
+      "required": "رقم الطوابق مطلوب.",
+      "pattern": "رقم غير صحيح."
+    },
+    "room_ensuite": {
+      "required": "غرفة بحمام داخلي مطلوب.",
+      "pattern": "رقم غير صحيح."
+    },
+    "reception_pieces": {
+      "required": "عدد غرف الاستقبال مطلوب .",
+      "pattern": "رقم غير صحيح."
+    },
+    "bath_room_no": {
+      "required": "عدد غرف الحمام مطلوب.",
+      "pattern": "رقم غير صحيح."
+    },
+    "bed_rooms_no": {
+      "required": "عدد غرف النوم مطلوب.",
+      "pattern": "رقم غير صحيح."
+    },
+    "kitchens_no": {
+      "required": "عدد المطابخ مطلوب.",
+      "pattern": "رقم غير صحيح."
+    },
+    "garage_no": {
+      "required": "عدد الجراجات مطلوب.",
+      "pattern": "رقم غير صحيح."
+    },
+    "living_room": {
+      "required": "عدد غرف المعيشة مطلوب.",
+      "pattern": "رقم غير صحيح."
+    },
+    "property_description_ar": {
+      "required": "وصف العقار باللغة العربية مطلوب."
+    },
+    "property_description_en": {
+      "required": "وصف العقار باللغة الإنجليزية مطلوب."
+    }
+  }
+}

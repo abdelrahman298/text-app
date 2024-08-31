@@ -1,0 +1,14 @@
+{
+  "tab": {
+    "title": " | Reviews",
+    "description": " | My Reviews Page"
+  },
+  "ErrorMessage": "Something wrong has happened, please try again later!",
+  "NoItemsMessage": "There are no reviews yet!",
+  "heading": "Reviews",
+  "status": {
+    "pending": "Pending",
+    "accepted": "Accepted",
+    "rejected": "Rejected"
+  }
+}

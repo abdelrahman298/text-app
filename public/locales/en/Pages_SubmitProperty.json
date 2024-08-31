@@ -1,0 +1,332 @@
+{
+  "tab": {
+    "title": " | ADD YOUR PROPERTY",
+    "description": " | ADD YOUR PROPERTY Page"
+  },
+
+  "heading": "ADD YOUR PROPERTY",
+  "sub_heading": "Property Details",
+  "form": {
+    "SubmitBtnComponent": {
+      "value": "Submit"
+    },
+    "property_title_en": {
+      "label": "Title in English",
+      "placeholder": "Title in English"
+    },
+    "property_title_ar": {
+      "label": "Title in Arabic",
+      "placeholder": "العنوان بالعربية"
+    },
+    "address_en": {
+      "label": "Address in English",
+      "placeholder": "Ex: Zahraa Nasr City"
+    },
+    "address_ar": {
+      "label": "Address in Arabic",
+      "placeholder": "مثال: زهراء مدينة نصر"
+    },
+    "video": {
+      "label": "Video",
+      "placeholder": "Ex: https://www.youtube.com/"
+    },
+    "location": {
+      "label": "Location",
+      "placeholder": "Location"
+    },
+    "building_num": {
+      "label": "Building Number",
+      "placeholder": "Building Number"
+    },
+    "floor_num": {
+      "label": "Floor Number",
+      "placeholder": "Floor Number"
+    },
+    "apartment_num": {
+      "label": "Apartment Number",
+      "placeholder": "Apartment Number"
+    },
+    "unit_floor": {
+      "label": "Unit Floor",
+      "placeholder": "Unit Floor"
+    },
+    "for_what": {
+      "label": "Rent / Sale / Both",
+      "placeholder": "Rent / Sale / Both",
+      "err_msg": "This field is required.",
+      "selections": {
+        "for_sale": "For Sale",
+        "for_rent": "For Rent",
+        "for_both": "Both"
+      }
+    },
+    "rent_duration": {
+      "label": "Rent Duration",
+      "placeholder": "Rent Duration",
+      "err_msg": "Rent Duration is required.",
+      "selections": {
+        "daily": "Per Day",
+        "monthly": "Per Month",
+        "3_months": "Per 3 Months",
+        "6_months": "Per 6 Months",
+        "9_months": "Per 9 Months",
+        "yearly": "Per Year"
+      }
+    },
+    "rent_price": {
+      "label": "Rent Price",
+      "placeholder": "Rent Price"
+    },
+    "sale_price": {
+      "label": "Sale Price",
+      "placeholder": "Sale Price"
+    },
+    "total_area": {
+      "label": "Total Area",
+      "placeholder": "Total Area"
+    },
+    "land_area": {
+      "label": "Land Area",
+      "placeholder": "Land Area"
+    },
+    "garage_size": {
+      "label": "Garage Size",
+      "placeholder": "Garage Size"
+    },
+    "no_floors": {
+      "label": "Floors Number",
+      "placeholder": "Floors Number"
+    },
+    "room_ensuite": {
+      "label": "Room Ensuite",
+      "placeholder": "Room Ensuite"
+    },
+    "reception_pieces": {
+      "label": "Reception Pieces",
+      "placeholder": "Reception Pieces"
+    },
+    "bath_room_no": {
+      "label": "Bath Rooms Number",
+      "placeholder": "Bath Rooms Number"
+    },
+    "bed_rooms_no": {
+      "label": "Bed Rooms Number",
+      "placeholder": "Bed Rooms Number"
+    },
+    "kitchens_no": {
+      "label": "Kitchens Number",
+      "placeholder": "Kitchens Number"
+    },
+    "garage_no": {
+      "label": "Garages Number",
+      "placeholder": "Garages Number"
+    },
+    "living_room": {
+      "label": "Living Room",
+      "placeholder": "Living Room"
+    },
+    "purpose": {
+      "label": "Purpose",
+      "placeholder": "Purpose",
+      "err_msg": "Purpose is required."
+    },
+    "category": {
+      "label": "Category",
+      "placeholder": "Category",
+      "err_msg": "Category is required."
+    },
+    "priority": {
+      "label": "Priority",
+      "placeholder": "Priority",
+      "err_msg": "Priority is required.",
+      "selections": { "Normal": "Normal", "Featured": "Featured" }
+    },
+    "country": {
+      "label": "Country",
+      "placeholder": "Country",
+      "err_msg": "Country is required."
+    },
+    "city": {
+      "label": "City",
+      "placeholder": "City",
+      "err_msg": "City is required."
+    },
+    "region": {
+      "label": "Region",
+      "placeholder": "Region",
+      "err_msg": "Region is required."
+    },
+    "finishing": {
+      "label": "Finishing",
+      "placeholder": "Finishing",
+      "err_msg": "Finishing is required."
+    },
+    "reception_floor_type": {
+      "label": "Reception Floor Type",
+      "placeholder": "Reception Floor Type",
+      "err_msg": "Reception Floor Type is required."
+    },
+    "property_type": {
+      "label": "Property Type",
+      "placeholder": "Property Type",
+      "err_msg": "Property is required."
+    },
+    "Photos_section_title": "Property Photos",
+    "Photos_section_tooltip": "Upload property images",
+    "primary_image": {
+      "label": "Primary Image",
+      "btnText": "Upload Image"
+    },
+    "property_description_en": {
+      "Heading": "Property Description in English"
+    },
+    "property_description_ar": {
+      "Heading": "Property Description in Arabic"
+    },
+    "Quick_Summary": {
+      "Heading": "Quick Summary",
+      "add_btn_txt": "Add field",
+      "Title": {
+        "label": "Title",
+        "placeholder": "Title",
+        "required_err_msg": "Title is required."
+      },
+      "Value": {
+        "label": "Value",
+        "placeholder": "Value",
+        "required_err_msg": "Value is required."
+      }
+    },
+    "aminities": {
+      "Heading": "Property Features"
+    },
+    "error": {
+      "fill_required": "Please fill in all required fields!",
+      "sign_in": "Please log in first!"
+    }
+  },
+  "DragDropArea": {
+    "title_while_dragging": "Drop images here",
+    "title": "Drag & Drop images here",
+    "or": "or",
+    "Browse": "Browse",
+    "rejectedImages": {
+      "max_size_err_msg": "Max image size is 5MB.",
+      "size_txt": "Size:",
+      "size_unit": "M",
+      "Canceled": "Canceled"
+    }
+  },
+  "TextEditor": {
+    "property_description_ar": {
+      "required_err_msg": "Property description in arabic is required.",
+      "placeholder": "Type here ..."
+    },
+    "property_description_en": {
+      "required_err_msg": "Property description in english is required.",
+      "placeholder": "Type here ..."
+    }
+  },
+  "validations": {
+    "primary_image": {
+      "required": "Primary image is required",
+      "validate": "Max image size is 5MB."
+    },
+    "property_title_en": {
+      "required": "English title is required.",
+      "pattern": "Only english letters are allowed."
+    },
+    "property_title_ar": {
+      "required": "Arabic title is required.",
+      "pattern": "Only arabic letters are allowed."
+    },
+    "address_en": {
+      "required": "English address is required.",
+      "pattern": "Only english letters are allowed."
+    },
+    "address_ar": {
+      "required": "Arabic address is required.",
+      "pattern": "Only arabic letters are allowed."
+    },
+    "video": {
+      "required": "Video is required."
+    },
+    "location": {
+      "required": "Location is required."
+    },
+    "building_num": {
+      "required": "Building number is required.",
+      "pattern": "Invalid number."
+    },
+    "floor_num": {
+      "required": "Floor number is required.",
+      "pattern": "Invalid number."
+    },
+    "apartment_num": {
+      "required": "Apartment number is required.",
+      "pattern": "Invalid number."
+    },
+    "unit_floor": {
+      "required": "Unit floor is required.",
+      "pattern": "Invalid number."
+    },
+    "rent_price": {
+      "required": "Rent price is required.",
+      "pattern": "Invalid number."
+    },
+    "sale_price": {
+      "required": "Sale price is required.",
+      "pattern": "Invalid number."
+    },
+    "total_area": {
+      "required": "Total area is required.",
+      "pattern": "Invalid number."
+    },
+    "land_area": {
+      "required": "Land area is required.",
+      "pattern": "Invalid number."
+    },
+    "garage_size": {
+      "required": "Garage size is required.",
+      "pattern": "Invalid number."
+    },
+    "no_floors": {
+      "required": "Floors number is required.",
+      "pattern": "Invalid number."
+    },
+    "room_ensuite": {
+      "required": "Room ensuite number is required.",
+      "pattern": "Invalid number."
+    },
+    "reception_pieces": {
+      "required": "Reception pieces number is required.",
+      "pattern": "Invalid number."
+    },
+    "bath_room_no": {
+      "required": "Bath rooms number is required.",
+      "pattern": "Invalid number."
+    },
+    "bed_rooms_no": {
+      "required": "Beds rooms number is required.",
+      "pattern": "Invalid number."
+    },
+    "kitchens_no": {
+      "required": "Kitchens number is required.",
+      "pattern": "Invalid number."
+    },
+    "garage_no": {
+      "required": "Garages number is required.",
+      "pattern": "Invalid number."
+    },
+    "living_room": {
+      "required": "Living rooms number is required.",
+      "pattern": "Invalid number."
+    },
+    "property_description_ar": {
+      "required": "Property description in arabic is required."
+    },
+    "property_description_en": {
+      "required": "Property description in english is required."
+    }
+  }
+}

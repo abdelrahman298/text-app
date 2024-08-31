@@ -1,0 +1,71 @@
+{
+  "tab": {
+    "title": " | Profile",
+    "description": " | My Profile Page"
+  },
+
+  "heading": "MY PROFILE",
+  "toast_error": "Please log in first!",
+  "form": {
+    "headings": {
+      "img": "Change Profile Photo",
+      "pass": "Change Password",
+      "info": "Change Profile Details"
+    },
+    "UploadFileComponent_btnText": "Upload Image",
+    "first_name": {
+      "label": "First Name",
+      "placeholder": "First Name"
+    },
+    "last_name": {
+      "label": "Last Name",
+      "placeholder": "Last Name"
+    },
+    "phone": {
+      "label": "Phone",
+      "placeholder": "Phone"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "Email"
+    },
+    "current_password": {
+      "label": "Current Password",
+      "placeholder": "Current Password"
+    },
+    "new_password": {
+      "label": "New Password",
+      "placeholder": "New Password"
+    },
+    "confirm_new_password": {
+      "label": "Confirm New Password",
+      "placeholder": "Confirm New Password"
+    },
+    "SubmitBtnComponent": {
+      "value": "Save Changes"
+    }
+  },
+  "validations": {
+    "first_name": {},
+    "last_name": {},
+    "phone": {
+      "pattern": "Invalid Phone number.",
+      "maxLength": "Invalid Phone number.",
+      "minLength": "Invalid Phone number."
+    },
+    "email": {
+      "pattern": "Invalid Email Address."
+    },
+    "current_password": {
+      "minLength": "Password Min length is 8 char."
+    },
+    "new_password": {
+      "minLength": "New Password Min length is 8 char.",
+      "validate_old_vs_new": "Old and new passwords can't be the same."
+    },
+    "confirm_new_password": {
+      "minLength": "Confirm New Password Min length is 8 char.",
+      "validate": "New Passwords don't match."
+    }
+  }
+}

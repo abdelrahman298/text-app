@@ -1,0 +1,16 @@
+{
+  "tab": {
+    "title": "LANACRM | فريق العمل"
+  },
+  "heading": "فريق العمل",
+  "ErrorMessage": "لقد حدث خطأ ما، يرجى المحاولة مرة أخرى في وقت لاحق!",
+  "NoItemsMessage": "لا يوجد وسطاء!",
+  "AgentCard": {
+    "count_formatted": "{{count, number}} عقار",
+    "CTA_txt": "عرض الملف الشخصي"
+  },
+  "Pagination": {
+    "Previous": "السابق",
+    "Next": "التالي"
+  }
+}

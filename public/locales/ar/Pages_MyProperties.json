@@ -1,0 +1,37 @@
+{
+  "tab": {
+    "title": " | عقاراتي",
+    "description": " | صفحة العقارات الخاصة بي"
+  },
+  "heading": "العقارات الخاصة بي",
+  "ErrorMessage": "لقد حدث خطأ ما، يرجى المحاولة مرة أخرى في وقت لاحق!",
+  "NoItemsMessage": "قائمة عقاراتك فارغة! ",
+  "table": {
+    "thead": {
+      "img": "الصورة",
+      "name": "الاسم",
+      "time": "الوقت",
+      "price": "السعر",
+      "views": "التعليقات",
+      "link": "العنوان",
+      "approved": "الحالة",
+      "delete": "حذف"
+    }
+  },
+  "acceptance": {
+    "accepted": "تم القبول",
+    "pending": "قيد الانتظار"
+  },
+  "PropertyCard": {
+    "price_formatted": "{{price, number}}",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} أو {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}"
+  },
+  "DeletePopUp": {
+    "DeletePopUpTitle": "هل أنت متأكد أنك تريد حذف هذا العقار",
+    "SubmitBtnText": "تأكيد",
+    "CancelBtnText": "إلغاء",
+    "toast_error": "الرجاء تسجيل الدخول أولا!"
+  }
+}

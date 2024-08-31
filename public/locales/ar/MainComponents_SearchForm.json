@@ -1,0 +1,55 @@
+{
+  "buy": "للبيع",
+  "rent": "للإيجار",
+  "keyword": {
+    "label": "احتياجاتك",
+    "placeholder": "احتياجاتك"
+  },
+  "property_type": {
+    "label": "نوع العقار",
+    "placeholder": "نوع العقار"
+  },
+  "region": {
+    "label": "الموقع",
+    "placeholder": "الموقع"
+  },
+  "price": {
+    "label": "السعر",
+    "placeholder": "السعر",
+    "min_price": {
+      "placeholder": "أقل سعر"
+    },
+    "max_price": {
+      "placeholder": "أكبر سعر"
+    }
+  },
+  "currency": {
+    "label": "العملة",
+    "placeholder": "العملة"
+  },
+  "finishing": {
+    "label": "التشطيب",
+    "placeholder": "التشطيب",
+    "err_msg": "التشطيب مطلوب."
+  },
+  "aminities": {
+    "label": "المميزات",
+    "placeholder": "المميزات"
+  },
+
+  "validations": {
+    "min_price": {
+      "pattern": "من فضلك أدخل رقما صحيحا",
+      "min": "الرجاء إدخال رقم أكبر من الصفر",
+      "validate": "لا يمكن أن تكون القيمة الدنيا أكبر من القيمة القصوى"
+    },
+    "max_price": {
+      "pattern": "من فضلك أدخل رقما صحيحا",
+      "min": "الرجاء إدخال رقم أكبر من الصفر",
+      "validate": "لا يمكن أن تكون القيمة الدنيا أكبر من القيمة القصوى"
+    }
+  },
+  "toast_error": "من فضلك ادخل بيانات صحيحة!",
+
+  "Submit_Button": "بحث"
+}

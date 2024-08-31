@@ -1,0 +1,15 @@
+{
+  "tab": {
+    "title": "LANACRM | المشاريع"
+  },
+  "heading": "جميع المشاريع",
+  "ErrorMessage": "لقد حدث خطأ ما، يرجى المحاولة مرة أخرى في وقت لاحق!",
+  "NoItemsMessage": "لا توجد مشاريع!",
+  "ProjectCard": {
+    "CTA_txt": "عرض المشروع"
+  },
+  "Pagination": {
+    "Previous": "السابق",
+    "Next": "التالي"
+  }
+}

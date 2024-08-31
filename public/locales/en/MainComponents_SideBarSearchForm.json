@@ -1,0 +1,56 @@
+{
+  "heading": "Find Your Home",
+  "keyword": { "label": "Your Needs", "placeholder": "Your Needs" },
+  "regions": { "label": "Location", "placeholder": "Location" },
+  "property_type": { "label": "Property Type", "placeholder": "Property Type" },
+
+  "currency": {
+    "label": "currency",
+    "placeholder": "currency"
+  },
+  "finishing": {
+    "label": "Property Finishing",
+    "placeholder": "Property Finishing"
+  },
+  "status": {
+    "label": "Status",
+    "placeholder": "Status",
+    "selections": {
+      "for_sale": "For Sale",
+      "for_rent": "For Rent",
+      "for_both": "Both"
+    }
+  },
+  "purpose": {
+    "label": "purpose",
+    "placeholder": "purpose"
+  },
+  "aminities": { "placeholder": "aminities" },
+
+  "min_beds": { "placeholder": "Bedrooms" },
+  "min_bathes": { "placeholder": "Bathrooms" },
+  "price_range_slider": {
+    "name": "PriceRangeSlider",
+    "label": "Price Range"
+  },
+  "area_range_slider": {
+    "name": "AreaRangeSlider",
+    "label": "Area Range"
+  },
+  "value_formatted": "{{value, number}}",
+  "validations": {
+    "min_beds": {
+      "pattern": "Please enter a valid number",
+      "min": "Please enter a number larger than zero",
+      "validate": "Min value cannot be larger than the max value"
+    },
+    "min_bathes": {
+      "pattern": "Please enter a valid number",
+      "min": "Please enter a number larger than zero",
+      "validate": "Min value cannot be larger than the max value"
+    }
+  },
+  "toast_error": "Pleas add valid data!",
+
+  "Submit_Button": "Search"
+}

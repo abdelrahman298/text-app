@@ -1,0 +1,14 @@
+{
+  "tab": {
+    "title": "Projects | LANACRM"
+  },
+
+  "heading": "ALL PROJECTS",
+  "ErrorMessage": "Something wrong has happened, please try again later!",
+  "NoItemsMessage": "There are no Projects!",
+  "ProjectCard": { "CTA_txt": "View Project" },
+  "Pagination": {
+    "Previous": "Previous",
+    "Next": "Next"
+  }
+}

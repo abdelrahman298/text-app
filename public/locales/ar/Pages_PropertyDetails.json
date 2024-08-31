@@ -1,0 +1,150 @@
+{
+  "tab": {
+    "title": "LANACRM | "
+  },
+  "property_id_word": "الرقم التعريفي للعقار",
+  "views_word": "مشاهدة",
+  "ShareComponent": {
+    "txt": "نشر",
+    "txt_property": "نشر هذا العقار",
+    "Facebook": "فيسبوك",
+    "Twitter": "تويتر",
+    "Google": "جوجل"
+  },
+  "headings": {
+    "details": "تفاصيل العقار",
+    "description": "وصف العقار",
+    "QuickSummary": "نبذة مختصرة",
+    "aminities": "المميزات",
+    "VIEWS": "عدد المشاهدات",
+    "line_chart_title": "مشاهدات العقار في عام {{currant_year}}",
+    "LOCATION": "موقع العقار",
+    "VIDEO": "الفيديو",
+    "FLOOR_PLAN": "مخطط العقار",
+    "SIMILAR_PROPERTIES": "عقارات مشابهة",
+    "COMMENTS": "التعليقات",
+    "LEAVE_COMMENT_word": "اترك تعليقا"
+  },
+  "ErrorMessage": "لقد حدث خطأ ما، يرجى المحاولة مرة أخرى في وقت لاحق!",
+  "NoItemsMessage_comments": "لا توجد تعليقات حتى الآن!",
+  "PropertyCard": {
+    "for_what_for_both": "للبيع او للإيجار",
+    "for_what_for_sale": "للبيع",
+    "for_what_for_rent": "للإيجار",
+    "price_formatted": "{{price, number}}",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} أو {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "area_formatted": "{{area, number, area}}",
+    "Bedrooms_one": "غرفة نوم",
+    "Bedrooms_two": "غرفتين نوم",
+    "Bedrooms_few": "{{count}} غرف نوم",
+    "Bedrooms_many": "{{count}} غرفة نوم",
+    "Bedrooms_other": "{{count}} غرفة نوم",
+    "Bathrooms_one": "حمام",
+    "Bathrooms_two": "حمامين",
+    "Bathrooms_few": "{{count}} حمامات",
+    "Bathrooms_many": "{{count}} حمام",
+    "Bathrooms_other": "{{count}} حمام",
+    "Start_From": "السعر",
+    "Month": "شهر",
+    "share_options": {
+      "Facebook": "فيسبوك",
+      "Twitter": "تويتر",
+      "Google": "جوجل +"
+    }
+  },
+  "FLOOR_PLAN": { "title": "أوتوكاد رقم " },
+
+  "aside": {
+    "PROPERTY_OWNER": "مسؤل العقار",
+    "MAKE_YOUR_OFFER": "قدم عرضك",
+    "Phone": "الهاتف:",
+    "Mobile": "الموبايل:",
+    "Email": " البريد الإلكتروني:"
+  },
+  "AsideForm": {
+    "name": {
+      "placeholder": "الاسم"
+    },
+    "phone": {
+      "placeholder": "الهاتف"
+    },
+    "email": {
+      "placeholder": "البريد الإلكتروني"
+    },
+    "message": {
+      "placeholder": "الرسالة..."
+    },
+    "offer": {
+      "placeholder": "العرض"
+    },
+    "SubmitBtnComponent": {
+      "value_message": "إرسال",
+      "value_offer": "أرسل عرضك",
+      "value": "إرسال"
+    },
+    "toast_error": "برجاء تسجيل الدخول أولا!"
+  },
+  "SendMessageForm": {
+    "name": {
+      "placeholder": "الاسم"
+    },
+    "phone": {
+      "placeholder": "الهاتف"
+    },
+    "email": {
+      "placeholder": "البريد الإلكتروني"
+    },
+    "message": {
+      "placeholder": "الرسالة..."
+    },
+    "RatingComponent": { "placeholder": "اترك تقييمك :" },
+    "SubmitBtnComponent": {
+      "value": "إرسال"
+    },
+    "toast_error": "برجاء تسجيل الدخول أولا!"
+  },
+  "validations": {
+    "name": {
+      "required": "الاسم مطلوب"
+    },
+    "email": {
+      "required": "البريد الالكتروني مطلوب.",
+      "pattern": " البريد الإلكتروني غير صحيح."
+    },
+    "message": {
+      "required": "الرسالة مطلوبة.",
+      "minLength": "الرجاء إدخال ٣ أحرف على الأقل."
+    },
+    "offer": {
+      "required": "العرض مطلوب.",
+      "pattern": "رقم غير صحيح.",
+      "min": "رقم غير صحيح."
+    },
+    "phone": {
+      "required": "الهاتف مطلوب.",
+      "pattern": "رقم الهاتف غير صحيح.",
+      "maxLength": "رقم الهاتف غير صحيح.",
+      "minLength": "رقم الهاتف غير صحيح."
+    }
+  },
+  "details": {
+    "buildingNumber": "رقم المبنى",
+    "floorNumber": "رقم الدور",
+    "apartmentNumber": "رقم الشقة",
+    "unitfloor": "أرضية الوحدة",
+    "rentPrice": "سعر الإيجار",
+    "salePrice": "سعر البيع",
+    "landarea": "مساحة الأرض",
+    "floorsNumber": "رقم الدور",
+    "roomensuite": "غرفة بحمام داخلي",
+    "receptionpieces": "قطع الاستقبال",
+    "bedroomsnumber": "عدد غرف النوم",
+    "kitchensnumber": "رقم المطابخ",
+    "livingRoom": "غرفة المعيشة",
+    "bathroomsnumber": "عدد الحمامات",
+    "garagenumber": "رقم المرآب",
+    "garagearea": "منطقة المرآب"
+  }
+}

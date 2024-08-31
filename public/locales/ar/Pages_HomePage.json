@@ -1,0 +1,79 @@
+{
+  "tab": {
+    "title": "LANACRM | {{name}} | إيجار - بيع العقارات في مصر"
+  },
+  "FeaturedProperties": {
+    "main_CTA": "عرض جميع العقارات"
+  },
+  "LatestProperties": {
+    "main_CTA": "عرض جميع العقارات"
+  },
+
+  "FixedBgImg": {
+    "main_CTA_1": "عقارات للإيجار",
+    "main_CTA_2": "عقارات للبيع"
+  },
+  "Testimonials": {
+    "top_banner": {
+      "main_CTA": "عرض المزيد من العقارات"
+    }
+  },
+  "LatestNews": {
+    "main_CTA": "عرض جميع الأخبار"
+  },
+  "CategoryCard": {
+    "Properties": "عقارات",
+    "count_formatted": "{{count, number}} عقارات"
+  },
+  "CityCard": {
+    "total_count_formatted": "{{count, number}} عقارات",
+    "rent_count_formatted": "{{count, number}} عقارات للإيجار",
+    "sale_count_formatted": "{{count, number}} عقارات للبيع"
+  },
+  "PropertyCard": {
+    "for_what_for_both": "للبيع او للإيجار",
+    "for_what_for_sale": "للبيع",
+    "for_what_for_rent": "للإيجار",
+    "price_formatted": "{{price, number}}",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} أو {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "area_formatted": "{{area, number, area}}",
+    "Bedrooms_one": "غرفة نوم",
+    "Bedrooms_two": "غرفتين نوم",
+    "Bedrooms_few": "{{count}} غرف نوم",
+    "Bedrooms_many": "{{count}} غرفة نوم",
+    "Bedrooms_other": "{{count}} غرفة نوم",
+    "Bathrooms_one": "حمام",
+    "Bathrooms_two": "حمامين",
+    "Bathrooms_few": "{{count}} حمامات",
+    "Bathrooms_many": "{{count}} حمام",
+    "Bathrooms_other": "{{count}} حمام",
+    "Bathrooms": "{{count, number}} الحمامات",
+    "Start_From": "السعر",
+    "Month": "شهر",
+    "share_options": {
+      "Facebook": "فيسبوك",
+      "Twitter": "تويتر",
+      "Google": "جوجل +"
+    }
+  },
+  "NewsCard": {
+    "count_formatted": "{{count, number}}"
+  },
+  "AgentCard": {
+    "count_formatted": "{{count, number}} عقار"
+  },
+  "LoginPopUp": {
+    "heading": "لانا",
+    "sub_heading": "يجب عليك تسجيل الدخول أولا!",
+    "Login": "تسجيل الدخول",
+    "Register": "يسجل"
+  },
+  "LogOutPopUp": {
+    "LogOutPopUpTitle": "هل أنت متأكد أنك تريد تسجيل الخروج ؟",
+    "SubmitBtnText": "تأكيد",
+    "CancelBtnText": "رجوع",
+    "toast_error": "الرجاء تسجيل الدخول أولا!"
+  }
+}

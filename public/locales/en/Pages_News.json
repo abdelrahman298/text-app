@@ -1,0 +1,14 @@
+{
+  "tab": {
+    "title": "NEWS | LANACRM"
+  },
+
+  "heading": "ALL NEWS",
+  "ErrorMessage": "Something wrong has happened, please try again later!",
+  "NoItemsMessage": "There are no news!",
+  "NewsCard": { "count_formatted": "{{count, number}}" },
+  "Pagination": {
+    "Previous": "Previous",
+    "Next": "Next"
+  }
+}

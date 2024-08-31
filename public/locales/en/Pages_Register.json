@@ -1,0 +1,124 @@
+{
+  "tab": {
+    "title": "Register | LANACRM"
+  },
+  "heading": "Register",
+  "welcome_msg": "Enter your details and create a new account.",
+
+  "step_1": {
+    "first_name": {
+      "label": "First Name",
+      "placeholder": "First Name"
+    },
+    "last_name": {
+      "label": "Last Name",
+      "placeholder": "Last Name"
+    },
+    "phone": {
+      "label": "Phone",
+      "placeholder": "Phone"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "Email"
+    }
+  },
+  "step_2": {
+    "password": {
+      "label": "Password",
+      "placeholder": "Password"
+    },
+    "confirm_password": {
+      "label": "Confirm Password",
+      "placeholder": "Confirm Password"
+    },
+    "birthday": {
+      "label": "Birthday",
+      "placeholder": "Birthday",
+      "validation_required": "Birthday is required.",
+      "validation_age": "You must be greater than 18 years old."
+    },
+    "gender": {
+      "label": "Gender",
+      "placeholder": "Gender",
+      "male": "Male",
+      "female": "Female",
+      "validation_required": " Gender is required."
+    }
+  },
+  "step_3": {
+    "Country": {
+      "label": "Country",
+      "placeholder": "Country",
+      "validation_required": "Country is required.",
+      "NotFoundMessage": "No countries found"
+    },
+    "City": {
+      "label": "City",
+      "placeholder": "City",
+      "validation_required": "Country is required.",
+      "NotFoundMessage": "No cities found"
+    },
+    "Region": {
+      "label": "Region",
+      "placeholder": "Region",
+      "validation_required": "Region is required.",
+      "NotFoundMessage": "No Regions found"
+    }
+  },
+  "step_4": {
+    "terms": {
+      "txt": "I Accept The",
+      "CTA": "Terms & Conditions",
+      "validation_required": "You must accept the terms & Conditions."
+    },
+
+    "SubmitBtnComponent": { "value": "Register" }
+  },
+
+  "form__bottom": {
+    "providers": {
+      "have_an_account": "Already have an account?",
+      "Login": "Login"
+    }
+  },
+  "VerificationCodeForm": {
+    "heading_for_verify_account": "Add the code that sent to you to verify the account",
+    "code": {
+      "label": "Verification Code",
+      "placeholder": "Verification Code"
+    },
+    "SubmitBtnComponent": { "value": "Send" }
+  },
+  "validations": {
+    "first_name": {
+      "required": "First name is required"
+    },
+    "last_name": {
+      "required": "Last name is required"
+    },
+    "phone": {
+      "required": "Phone is required.",
+      "pattern": "Invalid Phone number.",
+      "maxLength": "Invalid Phone number.",
+      "minLength": "Invalid Phone number."
+    },
+    "email": {
+      "required": "Email is required.",
+      "pattern": "Invalid Email Address."
+    },
+    "password": {
+      "required": "Password is required.",
+      "minLength": "Password Min length is 8 char."
+    },
+    "confirm_password": {
+      "required": "Confirm Password is required.",
+      "minLength": "Confirm Password Min length is 8 char.",
+      "validate": "Passwords don't match."
+    },
+    "code": {
+      "required": "Code is required.",
+      "pattern": "Invalid code."
+    }
+  }
+}

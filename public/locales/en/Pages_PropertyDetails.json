@@ -1,0 +1,133 @@
+{
+  "tab": {
+    "title": " | LANACRM"
+  },
+
+  "property_id_word": "Property ID:",
+  "views_word": "views",
+  "ShareComponent": {
+    "txt": "Share",
+    "txt_property": "Share this Property",
+    "Facebook": "Facebook",
+    "Twitter": "Twitter",
+    "Google": "Google +"
+  },
+  "headings": {
+    "details": "PROPERTY DETAILS",
+    "description": "PROPERTY DESCRIPTION",
+    "QuickSummary": "QUICK SUMMARY",
+    "aminities": "BENEFITS & aminities",
+    "VIEWS": "PROPERTY VIEWS",
+    "line_chart_title": "Property Views in year {{currant_year}}",
+    "LOCATION": "PROPERTY LOCATION",
+    "VIDEO": "VIDEO PRESENTATION",
+    "FLOOR_PLAN": "FLOOR PLAN",
+    "SIMILAR_PROPERTIES": "SIMILAR PROPERTIES",
+    "COMMENTS": "COMMENTS",
+    "LEAVE_COMMENT_word": "LEAVE A COMMENT"
+  },
+  "ErrorMessage": "Something wrong has happened, please try again later!",
+  "NoItemsMessage_comments": "There are no comments yet!",
+  "PropertyCard": {
+    "for_what_for_both": "For Sale or Rent",
+    "for_what_for_sale": "For Sale",
+    "for_what_for_rent": "For Rent",
+    "price_formatted": "{{price, number}}",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} or {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "area_formatted": "{{area, number, area}}",
+    "Bedrooms": "{{count, number}} Bedrooms",
+    "Bathrooms": "{{count, number}} Bathrooms",
+    "Start_From": "Price",
+    "Month": "Month",
+    "share_options": {
+      "Facebook": "Facebook",
+      "Twitter": "Twitter",
+      "Google": "Google"
+    },
+    "Actions": { "Delete": "Delete" }
+  },
+  "FLOOR_PLAN": { "title": "AutoCAD number " },
+  "aside": {
+    "PROPERTY_OWNER": "PROPERTY OWNER",
+    "MAKE_YOUR_OFFER": "MAKE YOUR OFFER",
+    "Phone": "Phone:",
+    "Mobile": "Mobile:",
+    "Email": "Email:"
+  },
+
+  "AsideForm": {
+    "name": { "placeholder": "Name" },
+    "phone": { "placeholder": "Phone" },
+    "email": { "placeholder": "Email" },
+    "message": { "placeholder": "Message..." },
+    "offer": {
+      "placeholder": "Your Offer"
+    },
+    "offer_type": {
+      "placeholder": "Offer Type",
+      "err_msg": "Offer Type is required",
+      "Options": { "for_rent": "For Rent", "for_sale": "For Sale" }
+    },
+    "SubmitBtnComponent": {
+      "value_message": "Send",
+      "value_offer": "Submit Your Offer",
+      "value": "Submit"
+    },
+    "toast_error": "Please log in first!"
+  },
+  "SendMessageForm": {
+    "name": { "placeholder": "Name" },
+    "phone": { "placeholder": "Phone" },
+    "email": { "placeholder": "Email" },
+    "message": { "placeholder": "Message..." },
+    "RatingComponent": { "placeholder": "Add Rating :" },
+    "SubmitBtnComponent": {
+      "value": "Send"
+    },
+    "toast_error": "Please log in first!"
+  },
+  "validations": {
+    "name": {
+      "required": "Name is required"
+    },
+    "email": {
+      "required": "Email is required.",
+      "pattern": "Invalid Email Address."
+    },
+    "message": {
+      "required": "Message is required.",
+      "minLength": "Please enter at least 3 letters."
+    },
+    "offer": {
+      "required": "Offer is required.",
+      "pattern": "Invalid Number.",
+      "min": "Invalid Number."
+    },
+    "phone": {
+      "required": "Phone is required.",
+      "pattern": "Invalid Phone number.",
+      "maxLength": "Invalid Phone number.",
+      "minLength": "Invalid Phone number."
+    }
+  },
+  "details": {
+    "buildingNumber": "Building Number",
+    "floorNumber": "Floor Number",
+    "apartmentNumber": "Apartment Number",
+    "unitfloor": "Unit floor",
+    "rentPrice": "Rent Price",
+    "salePrice": "Sale Price",
+    "landarea": "Land Area",
+    "floorsNumber": "Floor Number",
+    "roomensuite": "Room ensuite",
+    "receptionpieces": "Reception pieces",
+    "bedroomsnumber": "Bedrooms number",
+    "kitchensnumber": "Kitchens number",
+    "livingRoom": "Living Room",
+    "bathroomsnumber": "Bathrooms number",
+    "garagenumber": "Garage number",
+    "garagearea": "Garage area"
+  }
+}

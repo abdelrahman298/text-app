@@ -1,0 +1,51 @@
+{
+  "tab": {
+    "title": "LANACRM | اتصل بنا"
+  },
+  "heading": "ارسل رسالتك!",
+  "ErrorMessage": "لقد حدث خطأ ما، يرجى المحاولة مرة أخرى في وقت لاحق!",
+  "aside": {
+    "title": "اتصل بنا",
+    "Address": "العنوان",
+    "Phone": "الهاتف",
+    "Email": "البريد إلكتروني",
+    "Follow_Us": "تابعنا"
+  },
+  "SendMessageForm": {
+    "name": {
+      "placeholder": "الاسم"
+    },
+    "phone": {
+      "placeholder": "الهاتف"
+    },
+    "email": {
+      "placeholder": "البريد إلكتروني"
+    },
+    "message": {
+      "placeholder": "الرسالة..."
+    },
+    "SubmitBtnComponent": {
+      "value": "إرسال"
+    },
+    "toast_error": "الرجاء تسجيل الدخول أولا!"
+  },
+  "validations": {
+    "name": {
+      "required": "الاسم مطلوب"
+    },
+    "email": {
+      "required": "البريد الالكتروني مطلوب.",
+      "pattern": " البريد الإلكتروني غير صحيح."
+    },
+    "message": {
+      "required": "الرسالة مطلوبة.",
+      "minLength": "الرجاء إدخال ٣ أحرف على الأقل."
+    },
+    "phone": {
+      "required": "الهاتف مطلوب.",
+      "pattern": "رقم الهاتف غير صحيح.",
+      "maxLength": "رقم الهاتف غير صحيح.",
+      "minLength": "رقم الهاتف غير صحيح."
+    }
+  }
+}

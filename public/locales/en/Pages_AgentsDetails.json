@@ -1,0 +1,122 @@
+{
+  "tab": {
+    "title": " | LANACRM"
+  },
+
+  "send_Message": "SEND A MESSAGE",
+  "Properties": "Properties",
+  "properties_count": "published these properties on our system.",
+  "ErrorMessage": "Something wrong has happened, please try again later!",
+  "AgentInfoComponent": {
+    "Phone": "Phone:",
+    "Mobile": "Mobile:",
+    "Email": "Email Address:",
+    "count_formatted": "{{count, number}} Properties",
+    "count_formatted_projects": "{{count, number}} Projects"
+  },
+  "ShareComponent": {
+    "txt": "Share",
+    "txt_agent": "Share Agent Profile",
+    "Facebook": "Facebook",
+    "Twitter": "Twitter",
+    "Google": "Google +"
+  },
+  "tabs": {
+    "description": "Description",
+    "properties_sale": "Properties for sale",
+    "properties_rent": "Properties for rent",
+    "news": "News",
+    "projects": "Projects"
+  },
+  "NewsCard": { "count_formatted": "{{count, number}}" },
+
+  "RecentlyViewedProperties": {
+    "title": "Recently Viewed"
+  },
+  "CitiesAside": {
+    "title": "Popular Destinations",
+    "properties_word": "Properties"
+  },
+  "PropertiesCategories": {
+    "title": "Properties Categories",
+    "count_formatted": "{{count, number}} Properties"
+  },
+  "FeaturedPropertiesAside": {
+    "title": "Featured Properties"
+  },
+  "AgentPropertiesForSale": {
+    "ErrorMessage": "Something wrong has happened, please try again later!",
+    "NoItemsMessage": "There are no properties!"
+  },
+  "AgentPropertiesForRent": {
+    "ErrorMessage": "Something wrong has happened, please try again later!",
+    "NoItemsMessage": "There are no properties!"
+  },
+  "AgentNews": {
+    "ErrorMessage": "Something wrong has happened, please try again later!",
+    "NoItemsMessage": "There are no News!"
+  },
+  "AgentProjects": {
+    "ErrorMessage": "Something wrong has happened, please try again later!",
+    "NoItemsMessage": "There are no Projects!"
+  },
+  "PropertyCard": {
+    "for_what_for_both": "For Sale or Rent",
+    "for_what_for_sale": "For Sale",
+    "for_what_for_rent": "For Rent",
+    "price_formatted": "{{price, number}}",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} or {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}",
+    "area_formatted": "{{area, number, area}}",
+    "Bedrooms": "{{count, number}} Bedrooms",
+    "Bathrooms": "{{count, number}} Bathrooms",
+    "Start_From": "Price",
+    "Month": "Month",
+    "share_options": {
+      "Facebook": "Facebook",
+      "Twitter": "Twitter",
+      "Google": "Google"
+    }
+  },
+  "Pagination": {
+    "Previous": "Previous",
+    "Next": "Next"
+  },
+
+  "AsideForm": {
+    "contact_agent": "Contact Agent",
+    "name": { "placeholder": "Name" },
+    "phone": { "placeholder": "Phone" },
+    "email": { "placeholder": "Email" },
+    "message": { "placeholder": "Message..." },
+
+    "SubmitBtnComponent": {
+      "value_message": "Send",
+
+      "value": "Submit"
+    },
+    "toast_error": "Please log in first!"
+  },
+  "validations": {
+    "name": {
+      "required": "Name is required"
+    },
+    "email": {
+      "required": "Email is required.",
+      "pattern": "Invalid Email Address."
+    },
+    "message": {
+      "required": "Message is required.",
+      "minLength": "Please enter at least 3 letters."
+    },
+
+    "phone": {
+      "required": "Phone is required.",
+      "pattern": "Invalid Phone number.",
+      "maxLength": "Invalid Phone number.",
+      "minLength": "Invalid Phone number."
+    }
+  },
+  "ProjectCard": { "CTA_txt": "View Project" }
+}

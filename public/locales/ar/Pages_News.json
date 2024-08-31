@@ -1,0 +1,13 @@
+{
+  "tab": {
+    "title": "LANACRM | الأخبار"
+  },
+  "heading": "جميع الأخبار",
+  "ErrorMessage": "لقد حدث خطأ ما، يرجى المحاولة مرة أخرى في وقت لاحق!",
+  "NoItemsMessage": "لا توجد أخبار!",
+  "NewsCard": { "count_formatted": "{{count, number}}" },
+  "Pagination": {
+    "Previous": "السابق",
+    "Next": "التالي"
+  }
+}

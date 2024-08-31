@@ -1,0 +1,77 @@
+{
+  "tab": {
+    "title": "Login | LANACRM"
+  },
+  "VerificationCodeForm": {
+    "heading_forget_password": "Add the code that sent to you to reset the password",
+    "heading_verify_code": "Add the code that sent to you to verify the account",
+    "code": {
+      "label": "Verification Code",
+      "placeholder": "Verification Code"
+    },
+    "SubmitBtnComponent": { "value": "Send" }
+  },
+  "ForgetPasswordForm": {
+    "heading": "Set the new password",
+    "new_password": {
+      "label": "Password",
+      "placeholder": "Password"
+    },
+    "confirm_new_password": {
+      "label": "Confirm Password",
+      "placeholder": "Confirm Password"
+    },
+    "SubmitBtnComponent": { "value": "Send" }
+  },
+  "SendCodeForm": {
+    "heading": "Add your email to send the verification code",
+    "email": {
+      "label": "Email",
+      "placeholder": "Email"
+    },
+    "SubmitBtnComponent": { "value": "Send" },
+    "Return_to_login": "Return to login"
+  },
+  "LoginForm": {
+    "heading": "Login",
+    "welcome_msg": "Welcome back! Please enter your information.",
+    "email": {
+      "label": "Email",
+      "placeholder": "Email"
+    },
+    "password": {
+      "label": "Password",
+      "placeholder": "Password"
+    },
+    "remember_me": {
+      "label": "Remember me"
+    },
+    "Forgot_password": "Forgot password ?",
+    "SubmitBtnComponent": { "value": "Login" },
+    "have_no_account": "Don't have an account?",
+    "register": "Create one"
+  },
+  "validations": {
+    "email": {
+      "required": "Email is required.",
+      "pattern": "Invalid Email Address."
+    },
+    "password": {
+      "required": "Password is required.",
+      "minLength": "Password Min length is 8 char."
+    },
+    "new_password": {
+      "required": "Confirm New Password is required.",
+      "minLength": "New Password Min length is 8 char."
+    },
+    "confirm_new_password": {
+      "required": "Confirm New Password is required.",
+      "minLength": "Confirm New Password Min length is 8 char.",
+      "validate": "New Passwords don't match."
+    },
+    "code": {
+      "required": "Code is required.",
+      "pattern": "Invalid code."
+    }
+  }
+}

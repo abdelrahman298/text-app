@@ -1,0 +1,35 @@
+{
+  "tab": {
+    "title": " | Properties",
+    "description": " | My Properties Page"
+  },
+
+  "heading": "MY PROPERTIES",
+  "ErrorMessage": "Something wrong has happened, please try again later!",
+  "NoItemsMessage": "Your Properties list is empty! Hurry up and add some properties now!",
+  "table": {
+    "thead": {
+      "img": "Image",
+      "name": "Name",
+      "time": "Time",
+      "price": "Price",
+      "views": "Views",
+      "link": "Link",
+      "approved": "Status",
+      "delete": "Delete"
+    }
+  },
+  "PropertyCard": {
+    "price_formatted": "{{price, number}}",
+    "price_formatted_for_both": "{{sale_price, number}} {{curr}} or {{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_rent": "{{rent_price, number}} {{curr}} / {{duration, duration}}",
+    "price_formatted_for_sale": "{{sale_price, number}} {{curr}}"
+  },
+  "acceptance": { "accepted": "Accepted", "pending": "Pending" },
+  "DeletePopUp": {
+    "DeletePopUpTitle": "Are you sure you want to delete this property ?",
+    "SubmitBtnText": "Confirm",
+    "CancelBtnText": "Cancel",
+    "toast_error": "Please log in first!"
+  }
+}

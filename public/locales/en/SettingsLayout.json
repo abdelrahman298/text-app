@@ -1,0 +1,25 @@
+{
+  "menu": {
+    "profile": "Profile",
+    "messages": "Messages",
+    "reviews": "Reviews",
+    "submit_property": "Submit Property",
+    "my_properties": "My Properties",
+    "my_offers": "Submission Offers",
+    "favorites": "Favorites",
+    "log_out": "Log Out"
+  },
+
+  "LoginPopUp": {
+    "heading": "Lana",
+    "sub_heading": "You must login firstly!",
+    "Login": "Login",
+    "Register": "Register"
+  },
+  "LogOutPopUp": {
+    "LogOutPopUpTitle": "Are you sure you want to logout ?",
+    "SubmitBtnText": "Confirm",
+    "CancelBtnText": "Cancel",
+    "toast_error": "Please log in first!"
+  }
+}

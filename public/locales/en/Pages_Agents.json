@@ -1,0 +1,18 @@
+{
+  "tab": {
+    "title": "Agents | LANACRM"
+  },
+
+  "heading": "ALL Agents",
+  "ErrorMessage": "Something wrong has happened, please try again later!",
+  "NoItemsMessage": "There are no agents!",
+  "AgentCard": {
+    "count_formatted": "{{count, number}} Properties",
+    "CTA_txt": "View Profile"
+  },
+
+  "Pagination": {
+    "Previous": "Previous",
+    "Next": "Next"
+  }
+}

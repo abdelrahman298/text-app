@@ -1,0 +1,125 @@
+{
+  "tab": {
+    "title": "LANACRM | إنشاء حساب"
+  },
+  "heading": "إنشاء حساب",
+  "welcome_msg": "أدخل التفاصيل الخاصة بك وقم بإنشاء حساب جديد.",
+  "step_1": {
+    "first_name": {
+      "label": "الاسم الأول",
+      "placeholder": "الاسم الأول"
+    },
+    "last_name": {
+      "label": "الاسم الثاني",
+      "placeholder": "الاسم الثاني"
+    },
+    "phone": {
+      "label": "الهاتف",
+      "placeholder": "الهاتف"
+    },
+    "email": {
+      "label": "البريد الإلكتروني",
+      "placeholder": "البريد الإلكتروني"
+    }
+  },
+  "step_2": {
+    "password": {
+      "label": "كلمة المرور",
+      "placeholder": "كلمة المرور"
+    },
+    "confirm_password": {
+      "label": "تأكيد كلمة المرور",
+      "placeholder": "تأكيد كلمة المرور"
+    },
+    "birthday": {
+      "label": "تاريخ الميلاد",
+      "placeholder": "تاريخ الميلاد",
+      "validation_required": " تاريخ الميلاد مطلوب.",
+      "validation_age": "السن يجب ان يكون أكبر من ١٨ عام."
+    },
+    "gender": {
+      "label": "النوع",
+      "placeholder": "النوع",
+      "male": "ذكر",
+      "female": "أنثى",
+      "validation_required": " النوع مطلوب."
+    }
+  },
+  "step_3": {
+    "Country": {
+      "label": "الدولة",
+      "placeholder": "الدولة",
+      "validation_required": "الدولة مطلوبة.",
+      "NotFoundMessage": "لم يتم العثور على بلدان"
+    },
+    "City": {
+      "label": "المدينة",
+      "placeholder": "المدينة",
+      "validation_required": "المدينة مطلوبة.",
+      "NotFoundMessage": "لم يتم العثور على مدن"
+    },
+    "Region": {
+      "label": "المنطقة",
+      "placeholder": "المنطقة",
+      "validation_required": "المنطقة مطلوبة.",
+      "NotFoundMessage": "لم يتم العثور على مناطق"
+    }
+  },
+  "step_4": {
+    "terms": {
+      "txt": "أوافق علي",
+      "CTA": "سياسة الخصوصية",
+      "validation_required": "يجب الموافقة علي سياسة الخصوصية."
+    },
+    "SubmitBtnComponent": {
+      "value": "إنشاء الحساب"
+    }
+  },
+  "form__bottom": {
+    "providers": {
+      "have_an_account": "هل لديك حساب؟",
+      "Login": "تسجيل الدخول"
+    }
+  },
+  "VerificationCodeForm": {
+    "heading_for_verify_account": "أضف الرمز الذي أرسل إليك للتحقق من الحساب",
+    "code": {
+      "label": "رمز التحقق",
+      "placeholder": "رمز التحقق"
+    },
+    "SubmitBtnComponent": {
+      "value": "إرسال"
+    }
+  },
+  "validations": {
+    "first_name": {
+      "required": "الإسم الأول مطلوب"
+    },
+    "last_name": {
+      "required": "الإسم الثاني مطلوب"
+    },
+    "phone": {
+      "required": "رقم الهاتف مطلوب.",
+      "pattern": "رقم الهاتف غير صحيح.",
+      "maxLength": "رقم الهاتف غير صحيح.",
+      "minLength": "رقم الهاتف غير صحيح."
+    },
+    "email": {
+      "required": "البريد الالكتروني مطلوب.",
+      "pattern": " البريد الإلكتروني غير صحيح."
+    },
+    "password": {
+      "required": "كلمة المرور مطلوبة.",
+      "minLength": "الحد الأدنى لكلمة المرور هو 8 أحرف."
+    },
+    "confirm_password": {
+      "required": "تأكيد كلمة المرور مطلوب.",
+      "minLength": "الحد الأدنى لتأكيد كلمة المرور هو 8 أحرف.",
+      "validate": "كلمات المرور غير متطابقة."
+    },
+    "code": {
+      "required": "رمز التحقق مطلوب.",
+      "pattern": "رمز التحقق غير صحيح."
+    }
+  }
+}

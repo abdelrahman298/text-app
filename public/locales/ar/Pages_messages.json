@@ -1,0 +1,22 @@
+{
+  "tab": {
+    "title": " | الرسائل",
+    "description": " | صفحة الرسائل"
+  },
+  "heading": "الرسائل",
+
+  "AgentsList": {
+    "search": {
+      "placeholder": "ابحث ..."
+    },
+    "ErrorMessage": "لقد حدث خطأ ما، يرجى المحاولة مرة أخرى في وقت لاحق!",
+    "NoItemsMessage": "لم يتم العثور على نتائج"
+  },
+  "ChatArea": {
+    "ErrorMessage": "لقد حدث خطأ ما، يرجى المحاولة مرة أخرى في وقت لاحق!",
+
+    "no_chat_selected_txt": "حدد الدردشة وابدأ المراسلة!",
+    "type_msg": "اكتب رسالة...",
+    "toast_err_no_msg_to_send": "الرجاء كتابة رسالة لإرسالها!"
+  }
+}

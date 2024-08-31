@@ -1,0 +1,23 @@
+{
+  "tab": {
+    "title": " | Messages",
+    "description": "| Messages Page"
+  },
+  "heading": "MESSAGES",
+
+  "AgentsList": {
+    "search": {
+      "placeholder": "Search ..."
+    },
+    "no_results": "No Results Found",
+    "ErrorMessage": "Something wrong has happened, please try again later!",
+    "NoItemsMessage": "No Results Found"
+  },
+  "ChatArea": {
+    "ErrorMessage": "Something wrong has happened, please try again later!",
+
+    "no_chat_selected_txt": "Select a Chat and Start Messaging!",
+    "type_msg": "Type a message ...",
+    "toast_err_no_msg_to_send": "Please type a message to send it!"
+  }
+}
