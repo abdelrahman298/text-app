@@ -11,7 +11,7 @@ interface IRadioInputProps<T extends FieldValues> {
   errors?: FieldErrors;
   name: Path<T>;
   label: string;
-  id?: number | string;
+  id?: number | string | any;
   ServerErrors?: string;
   width?: string;
   Bgcolor?: "light" | "dark";

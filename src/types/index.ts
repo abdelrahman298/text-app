@@ -74,7 +74,7 @@ export interface IFormElementProps<T extends FieldValues> {
 
 export interface IComboBoxProps<T extends FieldValues = any> {
   color?: string;
-  data?: { id: number | string; title: string }[];
+  data?: { id: string | number; title: string }[];
   placeholder?: string;
   setValue?: UseFormSetValue<T> | any;
   stateName?: string;

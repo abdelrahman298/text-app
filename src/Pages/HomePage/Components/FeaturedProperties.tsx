@@ -28,8 +28,8 @@ interface IFeaturedPropertiesProps {
   };
   ads: { image: string; title: string; sub_title: string; link: string }[];
   color?: {
-    basic_color: string;
-    secondary_color: string;
+    basic_color: string | any;
+    secondary_color: string | any;
   };
 }
 

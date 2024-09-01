@@ -22,8 +22,8 @@ import { defaultData } from "../../../Utilities/style";
 interface ILatestPropertiesProps {
   t: TFunction;
   color?: {
-    basic_color: string;
-    secondary_color: string;
+    basic_color: string | any;
+    secondary_color: string | any;
   };
   data: {
     main_cards: IPropertyCardData[][];

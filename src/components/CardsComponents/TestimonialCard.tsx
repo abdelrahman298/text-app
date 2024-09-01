@@ -13,8 +13,8 @@ function TestimonialCard({
 
   slider: true | false;
   color?: {
-    basic_color: string;
-    secondary_color: string;
+    basic_color: string | any;
+    secondary_color: string | any;
   };
 }) {
   return (
