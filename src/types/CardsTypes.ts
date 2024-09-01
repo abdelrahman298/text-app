@@ -238,6 +238,7 @@ export interface BrokerDetail2 {
   last_name: string;
   src: string;
   logo: string;
+  img: string;
   phone: string;
   email: string;
   broker_type: string;

@@ -204,7 +204,7 @@ function SideBarSearchForm({ setCategory }: props) {
         .map((item) => parseInt(item as unknown as string));
       //srt is set to 0 initially because it is handled from the search page (sort by) not from the from, also the backend need to don't send the srt with the value unless the sort by selections is clicked
       //cr=?country
-      console.log("SEARCH SIDE" + JSON.stringify(data));
+      console.log("SEARCH SIDE", data);
       console.log("SEARCH SIDE" + JSON.stringify(data?.purpose));
 
       navigate(
@@ -440,8 +440,8 @@ function SideBarSearchForm({ setCategory }: props) {
             step={1000}
             minStepsBetweenThumbs={10}
             onValueCommit={(value) => {
-              setValue("min_area", value[0]);
-              setValue("max_area", value[1]);
+              setValue("min_price", value[0]);
+              setValue("max_price", value[1]);
             }}
             name={t("price_range_slider.name")}
             label={t("price_range_slider.label")}

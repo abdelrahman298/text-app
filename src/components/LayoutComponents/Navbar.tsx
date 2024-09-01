@@ -31,7 +31,7 @@ import {
 } from "../../app/Features/MiscellaneousSlice.tsx";
 import { LangLink, LangNavLink } from "../MainComponents/index.ts";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { defaultData } from "../../../src/Utilities/style.js";
+import { defaultData } from "../../Utilities/style.js";
 
 import {
   Sheet,

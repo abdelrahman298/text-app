@@ -83,9 +83,6 @@ export function Component() {
 
   const lng = useAppSelector(lang);
   const [page, setPage] = useState(Number(searchParams.get("page")) || 1);
-  // const [isCitySearch, setIsCitySearch] = useState(
-  //   searchParams.get("fc") == 1 ? true : false
-  // );
 
   const [isCitySearch, setIsCitySearch] = useState(false);
   const { mutate, isPending, isError, isPaused, data } = usePostData(false);

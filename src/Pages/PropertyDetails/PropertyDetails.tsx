@@ -239,6 +239,8 @@ export function Component() {
     return <Loader className="  h-[calc(100vh-135px)] mb-32" />;
   }
 
+  console.log("avatar image", data);
+
   return (
     <section>
       <section className=" site_container  bg- flex justify-between items-start pt-20 gap-0 lg:gap-16 pb-16 lg:pb-44 lg:flex-col lg:items-center lg:justify-start text-temp_secondary">

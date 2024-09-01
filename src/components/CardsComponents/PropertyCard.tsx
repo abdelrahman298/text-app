@@ -235,7 +235,7 @@ const PropertyCard = memo(function PropertyCard({
                 <label className="love__btn">
                   {user?.token && (
                     <input
-                      defaultChecked={Number(card?.is_fav)}
+                      defaultChecked={Boolean(Number(card?.is_fav))}
                       type="checkbox"
                       id={card?.id?.toString()}
                       onChange={() =>
